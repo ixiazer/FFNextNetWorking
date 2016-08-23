@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AD9722C4-03A9-4908-AF7C-3B8D17BE2E51</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FFNetworking</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6CF85B689839D1112D6071FF5DCF05413F9730DD</key>
+		<string>https://github.com/kingundertree/FFNetworking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FFNetworking.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6CF85B689839D1112D6071FF5DCF05413F9730DD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kingundertree/FFNetworking.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6CF85B689839D1112D6071FF5DCF05413F9730DD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6CF85B689839D1112D6071FF5DCF05413F9730DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FFNetworking</string>
+		</dict>
+	</array>
+</dict>
+</plist>
