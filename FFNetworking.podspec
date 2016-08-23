@@ -6,10 +6,10 @@ Pod::Spec.new do |s|
   s.description  = ""
   s.ios.deployment_target = '6.0'
   s.platform     = :ios, '6.0'
-  s.homepage     = "https://github.com/kingundertree/FFNextNetworking"
+  s.homepage     = "https://github.com/ixiazer/FFNextNetWorking"
   s.license      = "MIT (example)"
   s.author             = { "徐山" => "kingundertree@163.com" }
-  s.source       = { :git => "https://github.com/kingundertree/FFNextNetworking.git" }
+  s.source       = { :git => "https://github.com/ixiazer/FFNextNetWorking.git" }
 
 
   s.source_files  = 'FFNetwork', 'FFNetwork/*.{h,m}'
