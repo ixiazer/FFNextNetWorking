@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2E6C76935FCD6175C91F0E3A5E305E2C5F66CBD1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2E6C76935FCD6175C91F0E3A5E305E2C5F66CBD1" : 9223372036854775807,
+    "6CF85B689839D1112D6071FF5DCF05413F9730DD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AD9722C4-03A9-4908-AF7C-3B8D17BE2E51",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2E6C76935FCD6175C91F0E3A5E305E2C5F66CBD1" : "FFNextNetworking\/",
+    "6CF85B689839D1112D6071FF5DCF05413F9730DD" : "FFNetworking"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FFNetworking",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FFNetworking.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ixiazer\/FFNextNetWorking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2E6C76935FCD6175C91F0E3A5E305E2C5F66CBD1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kingundertree\/FFNetworking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6CF85B689839D1112D6071FF5DCF05413F9730DD"
+    }
+  ]
+}

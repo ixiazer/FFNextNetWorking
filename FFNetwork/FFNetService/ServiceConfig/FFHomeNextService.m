@@ -18,7 +18,7 @@
 
 - (NSString *)onlineApiBaseUrl
 {
-    return [NSString stringWithFormat:@"http://wx.freshfresh.com/"];
+    return [NSString stringWithFormat:@"https://wx.freshfresh.com/"];
 }
 
 - (NSString *)onlineApiVersion
@@ -38,7 +38,7 @@
 
 - (NSString *)offlineApiBaseUrl
 {
-    return [NSString stringWithFormat:@"http://test2.freshfresh.com/"];
+    return [NSString stringWithFormat:@"https://test2.freshfresh.com/"];
 }
 
 - (NSString *)offlineApiVersion
