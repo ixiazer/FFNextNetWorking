@@ -98,7 +98,7 @@
 
 + (NSString *) jsonStringWithString:(NSString *) string {
     return [NSString stringWithFormat:@"\"%@\"",
-            [[string stringByReplacingOccurrencesOfString:@"\n" withString:@"\\n"] stringByReplacingOccurrencesOfString:@"\""withString:@"\\\""]
+            [[[string stringByReplacingOccurrencesOfString:@"\n" withString:@"\\n"] stringByReplacingOccurrencesOfString:@"\"" withString:@"\\\""] stringByReplacingOccurrencesOfString:@"\t" withString:@"\\t"]
             ];
 }
 
