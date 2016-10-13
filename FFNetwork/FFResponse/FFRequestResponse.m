@@ -33,7 +33,7 @@
         self.responseData = responseData;
         self.requestParams = request.requestParams;
         self.isCache = NO;
-        NSDictionary *requestDic = [self dictionaryWithJsonString:filterElseStr];
+        NSDictionary *requestDic = [self dictionaryWithJsonString:responseString];
         self.content = requestDic;
 
       //  self.content = [self createContentWithData:self.responseData];
