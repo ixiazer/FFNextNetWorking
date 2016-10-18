@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+
+typedef NS_ENUM(NSInteger, FFAppApiConfigType) {
+    FFAppApiConfigTypeForDev = 1 << 0, // 开发环境
+    FFAppApiConfigTypeForTest = 1 << 1, // 测试环境
+    FFAppApiConfigTypeForPreOnline = 1 << 2, // 预发布环境
+    FFAppApiConfigTypeForOnline = 1 << 3, // 开发环境
+};
+
 @interface FFAppContext : NSObject
 
 //凡是未声明成readonly的都是需要在初始化的时候由外面给的
@@ -41,7 +49,7 @@
 /**
  区分 api 为 GA 还是 PG
  */
-@property (nonatomic, assign) BOOL isApiOnline;
+@property (nonatomic, assign) FFAppApiConfigType apiConfigType;
 
 //区分Longlink是线上还是线下
 @property (nonatomic, assign) BOOL isLonglinkOnline;

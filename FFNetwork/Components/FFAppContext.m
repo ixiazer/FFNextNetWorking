@@ -352,8 +352,8 @@
     self = [super init];
     if (self) {
         _currentPageNumber = @"-1";
-        _isApiOnline = YES;
         _isLonglinkOnline = YES;
+        _apiConfigType = FFAppApiConfigTypeForOnline;
     }
     return self;
 }

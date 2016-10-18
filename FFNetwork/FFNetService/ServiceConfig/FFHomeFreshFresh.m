@@ -11,9 +11,21 @@
 
 @implementation FFHomeFreshFresh
 
-- (BOOL)isOnline
+- (FFAppApiConfigType)apiConfigType
 {
-    return [[FFAppContext sharedInstance] isApiOnline];
+    return [FFAppContext sharedInstance].apiConfigType;
+}
+
+- (NSString *)apiPreUrl {
+    if (self.apiConfigType == FFAppApiConfigTypeForDev) {
+        return @"http://test1.freshfresh.com/";
+    } else if (self.apiConfigType == FFAppApiConfigTypeForTest) {
+        return @"http://114.55.218.27/testfresh/";
+    } else if (self.apiConfigType == FFAppApiConfigTypeForPreOnline) {
+        return @"http://114.55.218.27/";
+    } else if (self.apiConfigType == FFAppApiConfigTypeForOnline) {
+        return @"http://www.freshfresh.com/";
+    }
 }
 
 - (NSString *)onlineApiBaseUrl

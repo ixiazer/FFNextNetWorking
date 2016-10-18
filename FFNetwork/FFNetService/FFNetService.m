@@ -45,7 +45,12 @@
                                         @"2.7":@"v2",
                                         @"2.8":@"v2",
                                         @"2.9":@"v2",
-                                        @"3.0":@"v2"};
+                                        @"3.0":@"v2",
+                                        @"3.1":@"v2",
+                                        @"3.1.1":@"v2",
+                                        @"3.2":@"v2",
+                                        @"3.3":@"v2",
+                                        @"3.4":@"v2"};
         }
     }
     return self;
@@ -70,22 +75,26 @@
 
 - (NSString *)privateKey
 {
-    return self.child.isOnline ? self.child.onlinePrivateKey : self.child.offlinePrivateKey;
+    return @"";
+//    return self.child.isOnline ? self.child.onlinePrivateKey : self.child.offlinePrivateKey;
 }
 
 - (NSString *)publicKey
 {
-    return self.child.isOnline ? self.child.onlinePublicKey : self.child.offlinePublicKey;
+    return @"";
+//    return self.child.isOnline ? self.child.onlinePublicKey : self.child.offlinePublicKey;
 }
 
 - (NSString *)apiBaseUrl
 {
-    return self.child.isOnline ? self.child.onlineApiBaseUrl : self.child.offlineApiBaseUrl;
+    return [self apiPreUrl];
+//    return self.child.isOnline ? self.child.onlineApiBaseUrl : self.child.offlineApiBaseUrl;
 }
 
 - (NSString *)apiVersion
 {
-    return self.child.isOnline ? self.child.onlineApiVersion : self.child.offlineApiVersion;
+    return @"";
+//    return self.child.isOnline ? self.child.onlineApiVersion : self.child.offlineApiVersion;
 }
 
 @end

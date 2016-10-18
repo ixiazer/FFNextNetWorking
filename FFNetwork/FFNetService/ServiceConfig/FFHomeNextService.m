@@ -11,14 +11,26 @@
 
 @implementation FFHomeNextService
 
-- (BOOL)isOnline
+- (FFAppApiConfigType)apiConfigType
 {
-    return [[FFAppContext sharedInstance] isApiOnline];
+    return [FFAppContext sharedInstance].apiConfigType;
+}
+
+- (NSString *)apiPreUrl {
+    if (self.apiConfigType == FFAppApiConfigTypeForDev) {
+        return @"https://test2.freshfresh.com/";
+    } else if (self.apiConfigType == FFAppApiConfigTypeForTest) {
+        return @"https://test2.freshfresh.com/";
+    } else if (self.apiConfigType == FFAppApiConfigTypeForPreOnline) {
+        return @"https://test2.freshfresh.com/";
+    } else if (self.apiConfigType == FFAppApiConfigTypeForOnline) {
+        return @"https://wx.freshfresh.com/";
+    }
 }
 
 - (NSString *)onlineApiBaseUrl
 {
-    return [NSString stringWithFormat:@"https://wx.freshfresh.com/"];
+    return @"";
 }
 
 - (NSString *)onlineApiVersion
@@ -38,7 +50,7 @@
 
 - (NSString *)offlineApiBaseUrl
 {
-    return [NSString stringWithFormat:@"https://test2.freshfresh.com/"];
+    return @"";
 }
 
 - (NSString *)offlineApiVersion

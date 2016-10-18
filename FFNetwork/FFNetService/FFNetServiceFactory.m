@@ -9,8 +9,6 @@
 #import "FFNetServiceFactory.h"
 #import "FFNetWorkingHeader.h"
 #import "FFHomeFreshFresh.h"
-#import "FFFlashBuyService.h"
-#import "FFFresh2014HomeService.h"
 #import "FFHomeNextService.h"
 
 @interface FFNetServiceFactory ()
@@ -47,10 +45,6 @@
 - (FFNetService<FFNetServiceProtocal> *)newServiceWithIdentify:(NSString *)identify{
     if ([identify isEqualToString:FFNetworkingGetServiceIDForFreshFresh] || [identify isEqualToString:FFNetworkingPostServiceIDForFreshFresh]) {
         return [[FFHomeFreshFresh alloc] init];
-    } else if ([identify isEqualToString:FFNetworkingGetServiceIDForFlashBuy] || [identify isEqualToString:FFNetworkingPostServiceIDForFlashBuy]) {
-        return [[FFFlashBuyService alloc] init];
-    } else if ([identify isEqualToString:FFNetworkingGetServiceIDForFresh2014] || [identify isEqualToString:FFNetworkingPostServiceIDForFresh2014]) {
-        return [[FFFresh2014HomeService alloc] init];
     } else if ([identify isEqualToString:FFNetworkingGetServiceIDForHomeNext] || [identify isEqualToString:FFNetworkingPostServiceIDForHomeNext]) {
         return [[FFHomeNextService alloc] init];
     }

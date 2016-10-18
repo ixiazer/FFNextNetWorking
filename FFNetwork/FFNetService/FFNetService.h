@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FFAppContext.h"
 
 // 所有FFNetService的派生类都要符合这个protocal
 @protocol FFNetServiceProtocal <NSObject>
-@property (nonatomic, readonly) BOOL isOnline;
+@property (nonatomic, readonly) FFAppApiConfigType apiConfigType;
 @property (nonatomic, readonly) NSString *offlineApiBaseUrl;
 @property (nonatomic, readonly) NSString *onlineApiBaseUrl;
 @property (nonatomic, readonly) NSString *offlineApiVersion;
@@ -36,4 +37,6 @@
 
 @property (nonatomic, weak) id<FFNetServiceProtocal> child;
 @property (nonatomic, strong) NSDictionary *versionWithPathDic;
+
+- (NSString *)apiPreUrl;
 @end
