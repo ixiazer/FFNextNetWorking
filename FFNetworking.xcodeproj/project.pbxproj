@@ -389,6 +389,7 @@
 				TargetAttributes = {
 					F89940541B0DE015005C2765 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = YA96Z6TJG6;
 					};
 					F899406D1B0DE015005C2765 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -629,6 +630,7 @@
 			baseConfigurationReference = F34A822CEFD5087F203C0DFB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YA96Z6TJG6;
 				INFOPLIST_FILE = FFNetworking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -640,6 +642,7 @@
 			baseConfigurationReference = D7B7A3324AB4AF4B638EAD80 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YA96Z6TJG6;
 				INFOPLIST_FILE = FFNetworking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

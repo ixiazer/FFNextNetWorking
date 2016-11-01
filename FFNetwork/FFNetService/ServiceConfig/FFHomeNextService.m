@@ -22,7 +22,7 @@
     } else if (self.apiConfigType == FFAppApiConfigTypeForTest) {
         return @"https://test2.freshfresh.com/";
     } else if (self.apiConfigType == FFAppApiConfigTypeForPreOnline) {
-        return @"https://test2.freshfresh.com/";
+        return @"http://114.55.218.27/";
     } else if (self.apiConfigType == FFAppApiConfigTypeForOnline) {
         return @"https://wx.freshfresh.com/";
     }
